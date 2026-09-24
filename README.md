@@ -93,3 +93,17 @@ curl http://localhost:3000/summary
 3.  **Strict Validation:** Implement a schema validation library like `Zod` or `Joi` to strictly enforce API payload structures.
 4.  **WebSockets (Real-time Dashboard):** Instead of requiring operators to repeatedly HTTP GET `/summary`, I would add a WebSocket endpoint to push state changes to a UI instantly when a device crosses the 30-second threshold.
 5.  **Dockerization:** Write a `Dockerfile` and `docker-compose.yml` to make the application and test suite entirely self-contained and reproducible.
+
+
+
+## AI Usage
+
+
+### Which AI tools you used
+    Gemini
+### What you used them for
+    Generating the template for project 
+### One suggestion or piece of generated code that you changed, rejected, or improved
+    Changed folder structure and overall integration
+### One thing you personally verified before submitting
+    Verified the API implementations and tested them
