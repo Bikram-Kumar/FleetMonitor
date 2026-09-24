@@ -36,7 +36,7 @@ The server will start and listen on `http://localhost:3000`.
 ## How to run the simulator
 Open a **new terminal window** (leave the server running in the first one) and run:
 ```bash
-node simulator.js
+node simulator/simulator.js
 ```
 The simulator will automatically register 5 devices and start sending heartbeats every 5 seconds. **Device 05** is intentionally programmed to crash after 15 seconds so you can observe the system automatically marking it as OFFLINE.
 
