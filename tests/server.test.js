@@ -1,5 +1,5 @@
 const request = require('supertest');
-const { app, devicesDb } = require('./server');
+const { app, devicesDb } = require('../server');
 
 describe('Mini Device Fleet Monitor API', () => {
     beforeEach(() => {
